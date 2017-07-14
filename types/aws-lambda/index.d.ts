@@ -286,6 +286,7 @@ interface ProxyResult {
     headers?: {
         [header: string]: boolean | number | string;
     },
+    isBase64Encoded?: boolean;
     body: string;
 }
 
